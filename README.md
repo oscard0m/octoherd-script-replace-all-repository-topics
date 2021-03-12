@@ -2,6 +2,9 @@
 
 > Replace all repository topics
 
+[![@latest](https://img.shields.io/npm/v/octoherd-script-replace-all-repository-topics.svg)](https://www.npmjs.com/package/octoherd-script-replace-all-repository-topics)
+[![Build Status](https://github.com/oscard0m/octoherd-script-replace-all-repository-topics/workflows/Test/badge.svg)](https://github.com/oscard0m/octoherd-script-replace-all-repository-topics/actions?query=workflow%3ATest+branch%3Amain)
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md)

@@ -1,5 +1,3 @@
-# 🚧 WORK IN PROGRESS. See [#1](https://github.com/oscard0m/octoherd-script-replace-all-repository-topics/pull/1)
-
 # octoherd-script-replace-all-repository-topics
 
 > Replace all repository topics

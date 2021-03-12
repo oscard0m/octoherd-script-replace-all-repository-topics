@@ -1,0 +1,29 @@
+{
+  "name": "octoherd-script-replace-all-repository-topics",
+  "version": "0.0.0-development",
+  "type": "module",
+  "exports": "./script.js",
+  "bin": {
+    "octoherd-script-replace-all-repository-topics": "./cli.js"
+  },
+  "description": "Replace all repository topics",
+  "scripts": {
+    "start": "node cli.js",
+    "test": "node script.js"
+  },
+  "repository": "https://github.com/oscard0m/octoherd-script-replace-all-repository-topics",
+  "keywords": [
+    "octoherd-script"
+  ],
+  "author": "Oscar Dominguez <dominguez.celada@gmail.com> (https://dev.to/oscardom)",
+  "license": "ISC",
+  "dependencies": {
+    "@octoherd/cli": "^2.7.3"
+  },
+  "devDependencies": {},
+  "release": {
+    "branches": [
+      "main"
+    ]
+  }
+}

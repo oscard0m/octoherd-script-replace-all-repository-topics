@@ -10,7 +10,11 @@
 export async function script(octokit, repository, options = {}) {
 	const owner = repository.owner.login;
 	const repo = repository.name;
-	const topics = options.topics || []
+	let topics = options.topics || []
+
+	if (!Array.isArray(topics)) {
+		topics = [topics]
+	}
 
 	if (repository.archived) {
 		octokit.log.warn(`${repository.html_url} is archived`);
